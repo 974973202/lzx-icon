@@ -1,0 +1,17 @@
+Babel-twotone
+Browser-outlined
+C-outlined
+Css-twotone
+Deploy-filled
+Git-filled
+Gulp-filled
+Java-twotone
+Javascript-twotone
+Leetcode-twotone
+Node-filled
+Other-twotone
+Python-twotone
+React-twotone
+Vite-twotone
+Vue-twotone
+Webpack-twotone

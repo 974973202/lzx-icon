@@ -20,7 +20,7 @@ import {
   objOf,
   assoc
 } from 'ramda';
-import parseXML, { XmlElement } from '@rgrove/parse-xml';
+import parseXML, { Element } from '@rgrove/parse-xml';
 
 export interface AbstractNodeDefinition {
   name: string;
@@ -86,8 +86,8 @@ export const svg2Definition = ({
 
         pipe(
           // @todo: "defaultTo" is not the best way to deal with the type Maybe<Element>
-          get<XmlElement>(['children', 0]),
-          defaultTo(({} as any) as XmlElement)
+          get<Element>(['children', 0]),
+          defaultTo({} as any as Element)
         ),
 
         // 2. The element node is with the JSON shape:
@@ -138,7 +138,7 @@ function element2AbstractNode({
   theme,
   extraNodeTransformFactories
 }: XML2AbstractNodeOptions) {
-  return ({ name: tag, attributes, children }: XmlElement): AbstractNode =>
+  return ({ name: tag, attributes, children }: Element): AbstractNode =>
     applyTo(extraNodeTransformFactories)(
       pipe(
         map((factory: TransformFactory) => factory({ name, theme })),
@@ -148,9 +148,9 @@ function element2AbstractNode({
           applyTo({
             tag,
             attrs: clone(attributes),
-            children: applyTo(children as XmlElement[])(
+            children: applyTo(children as Element[])(
               pipe(
-                filter<XmlElement, 'array'>(where({ type: equals('element') })),
+                filter<Element, 'array'>(where({ type: equals('element') })),
                 map(
                   element2AbstractNode({
                     name,

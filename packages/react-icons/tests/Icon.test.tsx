@@ -1,4 +1,4 @@
-import { AddOutlined } from '@lzx-design/svg-icon';
+import { AddOutlined } from 'lzx-design-svg-icon';
 import * as React from 'react';
 import { mount } from 'enzyme';
 import Icon from '../src/components/IconBase';

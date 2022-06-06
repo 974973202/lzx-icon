@@ -1,4 +1,4 @@
-import { ThemeType } from '@lzx-design/svg-icon/lib/types';
+import { ThemeType } from 'lzx-design-svg-icon/lib/types';
 import * as React from 'react';
 import styled from 'styled-components';
 import * as AntdIcons from '../src/icons';

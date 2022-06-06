@@ -1,5 +1,5 @@
-import * as allIconDefs from '@lzx-design/svg-icon';
-import { IconDefinition } from '@lzx-design/svg-icon/es/types';
+import * as allIconDefs from 'lzx-design-svg-icon';
+import { IconDefinition } from 'lzx-design-svg-icon/es/types';
 import * as path from 'path';
 import * as fs from 'fs';
 import { promisify } from 'util';
@@ -40,7 +40,7 @@ async function generateIcons() {
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react'
-import <%= svgIdentifier %>Svg from '@lzx-design/svg-icon/lib/asn/<%= svgIdentifier %>';
+import <%= svgIdentifier %>Svg from 'lzx-design-svg-icon/lib/asn/<%= svgIdentifier %>';
 import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
 
 const <%= svgIdentifier %> = (

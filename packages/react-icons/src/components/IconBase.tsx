@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AbstractNode, IconDefinition } from '@lzx-design/svg-icon/lib/types';
+import { AbstractNode, IconDefinition } from 'lzx-design-svg-icon/lib/types';
 import {
   generate,
   getSecondaryColor,

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { IconDefinition } from '@lzx-design/svg-icon/lib/types';
+import { IconDefinition } from 'lzx-design-svg-icon/lib/types';
 
 import Context from './Context';
 import type { IconBaseProps } from './Icon';

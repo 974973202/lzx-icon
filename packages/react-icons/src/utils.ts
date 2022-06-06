@@ -1,4 +1,4 @@
-import { AbstractNode, IconDefinition } from '@lzx-design/svg-icon/lib/types';
+import { AbstractNode, IconDefinition } from 'lzx-design-svg-icon/lib/types';
 import { generate as generateColor } from '@ant-design/colors';
 import React, { useContext, useEffect } from 'react';
 import warn from 'rc-util/lib/warning';
