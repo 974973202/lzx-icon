@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "icons:generate": "lerna run --scope cscs-icons-svg generate",
+    "icons:build": "lerna run --scope cscs-icons-svg build",
+    "icons:test": "lerna run --scope cscs-icons-svg test",
+    "react:ci": "lerna run --scope cscs-icons ci",
+    "lint": "lerna run lint"
+  },
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  }
+}
