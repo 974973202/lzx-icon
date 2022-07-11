@@ -13621,10 +13621,10 @@ lz-string@^1.4.4:
   resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.4.4.tgz#c0d8eaf36059f705796e1e344811cf4c498d3a26"
   integrity sha512-0ckx7ZHRPqb0oUm8zNr+90mtf9DQB60H1wMCjBtfi62Kl3a7JbHob6gA2bC+xRvZoOL+1hzUK8jeuEIQE8svEQ==
 
-lzx-design-svg-icon@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/lzx-design-svg-icon/-/lzx-design-svg-icon-0.0.3.tgz#e301f4e4e1a39a9a5f0cd9daca79efccc2dfc11d"
-  integrity sha512-J2CO5YjVmOeBTs9U7nw2PuHvWGm957v4dL5277iSxGJ3gto7C4Tj+lHEt5dX2T7M8ckbyAIEaydQHNLOCAWk1g==
+lzx-design-svg-icon@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/lzx-design-svg-icon/-/lzx-design-svg-icon-0.0.4.tgz#2816da3a5c4e8869f6c08738d09f5cbe7cd58d80"
+  integrity sha512-3FhGDnYt/LVJCtDMn4k7aqn1vPtrQ/pSI4Vvv5wJiJTraR1yNJ+THghJIWZ5MEnzsZuomfOiCWgj+K8VTjJS3A==
 
 magic-string@^0.25.3, magic-string@^0.25.5, magic-string@^0.25.7:
   version "0.25.9"
